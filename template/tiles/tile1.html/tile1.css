@@ -1,0 +1,46 @@
+.tileMain {
+  height: 250px;
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+.tileMain:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.tileHead {
+  height: 50%;
+  background-color: rgb(146, 203, 253);
+  opacity: 0.5;
+}
+.tileHead:hover {
+  opacity: 1;
+}
+
+.tileImage {
+  text-align: center;
+  height: 100%;
+}
+.svg-dashboard {
+  background: url(./sprites.svg) no-repeat;
+  display: inline-block;
+  background-position: -11px -6px;
+  width: 50px;
+  height: 50px;
+  margin-top: 15%;
+}
+.svg-dashboard:hover {
+  background-position: -111px -6px;
+}
+.tileBody {
+  height: 50%;
+}
+.tileText {
+  padding: 8px 12px;
+  font-size: medium;
+  color: #424242;
+}
+.tileText:hover {
+  color: #000000;
+}
+
